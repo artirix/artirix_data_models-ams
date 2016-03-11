@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'ActiveModelSerializers support for ArtirixDataModels'
 
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/artirix/artirix_data_models-ams'
 
   # # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # # delete this section to allow pushing this gem to any host.
@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'artirix_data_models', '~> 0.15'
+  spec.add_dependency 'artirix_data_models', '~> 0.16'
 
   spec.add_development_dependency 'bundler', '~> 1.11'
   spec.add_development_dependency 'rake', '~> 10.0'

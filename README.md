@@ -33,3 +33,10 @@ In order to work properly, the model has to define:
 
 - *`id`*
 - *`updated_at`* or *`_timestamp`*
+
+## Changelog
+
+### 0.2.0
+
+fixing AMD version required
+
