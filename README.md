@@ -1,5 +1,9 @@
 # ArtirixDataModels::Ams
 
+[![Gem Version](https://badge.fury.io/rb/artirix_data_models-ams.svg)](http://badge.fury.io/rb/artirix_data_models-ams)
+[![Build Status](https://travis-ci.org/artirix/artirix_data_models-ams.svg?branch=master)](https://travis-ci.org/artirix/artirix_data_models-ams)
+
+
 This gems adds the module `ArtirixDataModels::Model::AMSCompliant`
 
 important: loading this gem will require `artirix_data_models` and `active_model_serializers`.
