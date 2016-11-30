@@ -36,7 +36,10 @@ In order to work properly, the model has to define:
 
 ## Changelog
 
+### 0.3.0
+
+open ADM version to include 1.x
+
 ### 0.2.0
 
 fixing AMD version required
-
