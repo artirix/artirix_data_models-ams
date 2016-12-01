@@ -26,4 +26,28 @@ module ArtirixDataModels::Model::AMSCompliant
       end
     end
   end
+
+  module ClassMethods
+    def self.extended(klass)
+      unless klass.method_defined? :lookup_ancestors
+        klass.extend WithLookupAncestors
+      end
+
+      unless klass.method_defined? :human_attribute_name
+        klass.extend WithHumanAttributeName
+      end
+    end
+  end
+
+  module WithLookupAncestors
+    def lookup_ancestors
+      [self]
+    end
+  end
+
+  module WithHumanAttributeName
+    def human_attribute_name(attr, _options = {})
+      attr
+    end
+  end
 end
