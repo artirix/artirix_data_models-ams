@@ -36,6 +36,10 @@ In order to work properly, the model has to define:
 
 ## Changelog
 
+### 0.4.0
+
+compatible with AMS 0.10.3, which is compatible with ActiveModel::Errors
+
 ### 0.3.0
 
 open ADM version to include 1.x
